@@ -1,5 +1,18 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return (
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=uhIdijSrnVc">Youtube</a>
+        </li>
+        <li>
+          <a href="https://github.com/Dh529885">gitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/deshawn-harmond/">linkedin</a>
+        </li>
+      </ul>
+    </footer>)
   }
   
   export default Footer;
